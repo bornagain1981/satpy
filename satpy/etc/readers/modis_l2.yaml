@@ -171,15 +171,15 @@ datasets:
       5000:
         file_key: Sensor_Zenith
 
-  water_vapor_correction_factor:
-    name: water_vapor_correction_factor
+  water_vapor_correction_factors:
+    name: water_vapor_correction_factors
     long_name: Aerosol Correction Factor for Water Vapor - Near Infrared Retrieval
     units: "1"
     file_type: mod05_hdf
     coordinates: [longitude, latitude]
     resolution:
       1000:
-        file_key: Water_Vapor_Correction_Factor
+        file_key: Water_Vapor_Correction_Factors
 
   water_vapor_near_infrared:
     name: water_vapor_near_infrared
