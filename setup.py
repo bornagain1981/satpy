@@ -40,6 +40,7 @@ test_requires = ['behave', 'h5py', 'netCDF4', 'pyhdf', 'imageio',
                  'rioxarray', 'pytest', 'pytest-lazy-fixture', 'defusedxml',
                  's3fs']
 
+
 extras_require = {
     # Readers:
     'avhrr_l1b_gaclac': ['pygac >= 1.3.0'],
@@ -80,6 +81,7 @@ extras_require = {
     'doc': ['sphinx', 'sphinx_rtd_theme', 'sphinxcontrib-apidoc'],
     # Other
     'geoviews': ['geoviews'],
+    'hvplot': ['hvplot', 'geoviews', 'cartopy'],
     'overlays': ['pycoast', 'pydecorate'],
     'satpos_from_tle': ['skyfield', 'astropy'],
     'tests': test_requires,
